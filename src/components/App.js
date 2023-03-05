@@ -14,12 +14,10 @@ class App extends React.Component {
     this.handleClick = this.handleClick.bind(this);
 
   }
-  
-  componentDidUpdate(){
-    console.log("rendered")
-  }
+
 
   render() {
+    console.log("rendered")
     return (
       <div id="main">
           <div id="count">{this.state.count}</div>
